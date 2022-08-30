@@ -1,0 +1,17 @@
+[package]
+name = "wren"
+version = "0.1.0"
+authors = ["FrederikTheDane <frederik.fredborg@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+static_assertions = "1.1"
+
+[build-dependencies]
+bindgen = "0.60"
+cc = "1.0"
+glob = "0.3"
